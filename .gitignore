@@ -1,0 +1,78 @@
+# =====================
+# OS Files
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# IDE / Editors
+# =====================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.agent
+
+# =====================
+# Backend (Python / FastAPI)
+# =====================
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+backend/.pytest_cache/
+backend/htmlcov/
+backend/.tox/
+backend/.nox/
+backend/.coverage
+backend/.coverage.*
+backend/.cache
+backend/nosetests.xml
+backend/coverage.xml
+backend/*.cover
+backend/*.log
+
+# Virtual Environments
+backend/.venv/
+backend/venv/
+backend/ENV/
+backend/env/
+
+# Environment Variables
+backend/.env
+backend/.env.*
+
+# FAISS (In case we dump index to disk later)
+backend/faiss_index/
+
+# =====================
+# Frontend (React / Vite / Node)
+# =====================
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/build/
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# Environment Variables
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Vite / React caches
+frontend/.eslintcache
+frontend/tsbuildinfo
+
+# =====================
+# Global Env
+# =====================
+.env
